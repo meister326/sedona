@@ -1,0 +1,156 @@
+/*  =========================  PROMO ESSAY  */
+
+.promo-essay,
+.promo-essay__intro,
+.promo-essay__chapter,
+.promo-essay__aside,
+.promo-essay__image-wrapper {
+    
+    display: block;
+    
+    margin: 0;
+    padding: 0;
+    
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+    
+    overflow: hidden;
+    
+}
+
+.promo-essay__intro :last-child,
+.promo-essay__chapter :last-child,
+.promo-essay__aside :last-child {
+    
+    margin-bottom: 0;
+    
+}
+
+.promo-essay__intro {
+    
+    height: 157px;
+    padding-top: 59px;
+    
+}
+
+.promo-essay__chapter {
+    
+    float: left;
+    
+    width: 33.33%;
+    height: 203px;
+    
+    padding-top: 53px;
+    
+}
+
+.promo-essay__aside {
+    
+    float: left;
+    
+    width: 33.33%;
+    height: 170px;
+    
+    padding-top: 160px;
+    
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.promo-essay__image-wrapper {
+    
+    float: left;
+    
+    width: 66.67%;
+    height: 256px;
+    
+}
+
+.promo-essay__image {
+    
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.promo-essay__title {
+    
+    margin: 0 15%;
+    margin-bottom: 24px;
+    
+    font-size: 21px;
+    font-weight: 700;
+    color: #000000;
+    
+}
+
+.promo-essay__text {
+    
+    margin: 0 15%;
+    margin-bottom: 21px;
+    
+}
+
+.promo-essay__intro .promo-essay__title {
+    
+    margin-bottom: 27px;
+    
+    font-size: 21px;
+    line-height: 26px;
+    
+}
+
+.promo-essay__intro .promo-essay__text {
+    
+    font-size: 14px;
+    line-height: 26px;
+    
+}
+
+.promo-essay__aside.promo-essay__aside--motel {
+    
+    background-image: url(../img/bg/icon-house.svg);
+    background-position: center 59px;
+    
+}
+
+.promo-essay__aside.promo-essay__aside--food {
+    
+    background-image: url(../img/bg/icon-burger.svg);
+    background-position: center 63px;
+    
+}
+
+.promo-essay__aside.promo-essay__aside--gift {
+    
+    background-image: url(../img/bg/icon-gift.svg);
+    background-position: center 56px;
+    
+}
+
+.promo-essay__chapter.promo-essay__chapter--in-blue {
+    
+    background-color: #81b3d2;
+    color: #ffffff;
+    
+}
+
+.promo-essay__chapter--in-blue .promo-essay__title {
+    
+    color: #ffffff;
+    
+}
+
+.promo-essay__chapter.promo-essay__chapter--in-grey {
+    
+    height: 210px;
+    padding-top: 46px;
+    
+    background-color: #eeeeee;
+    
+}

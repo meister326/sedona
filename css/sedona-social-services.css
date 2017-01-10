@@ -1,0 +1,92 @@
+/*  SOCIAL SERVICES  */
+
+.social-services {
+    
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    
+    font-size: 0;
+    line-height: 1px;
+    
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.social-services__item {
+    
+    display: inline-block;
+    
+    margin: 0 3px;
+    padding: 0;
+    
+    list-style: none;
+    vertical-align: middle;
+    
+}
+
+.social-services__item:first-child {
+    
+    margin-left: 0;
+    
+}
+
+.social-services__item:last-child {
+    
+    margin-right: 0;
+    
+}
+
+.social-services__link {
+    
+    display: block;
+    
+    width: 46px;
+    height: 48px;
+    
+    background-color: #81b3d2;
+    color: #ffffff;
+    
+}
+
+.social-services__link::before {
+    
+    content: "";
+    display: inline-block;
+    
+    width: 0;
+    height: 100%;
+    
+    vertical-align: middle;
+    
+}
+
+.social-services__link:hover {
+    
+    background-color: #669ec0;
+    
+}
+
+.social-services__link:active {
+    
+    background-color: #5496bd;
+    
+}
+
+.social-services__link svg {
+    
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    
+    fill: #ffffff;
+    
+}
+
+.social-services__link:active svg {
+    
+    opacity: 0.3;
+    
+}

@@ -1,0 +1,190 @@
+/*  =========================  BASIC TYPOGRAPHICS  */
+
+@font-face {
+
+    font-family: "symbols-sedona";
+    src: url("../font/symbols-sedona/fonts/symbols-sedona.woff") format("woff"),
+         url("../font/symbols-sedona/fonts/symbols-sedona.woff2") format("woff2");
+    
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+html, body {
+    
+    font-family: 'PT Sans', Arial, sans-serif;
+    
+    font-size: 14px;
+    line-height: 21px;
+    
+    font-weight: 400;
+    font-style: normal;
+    
+    font-variant: normal;
+    text-transform: uppercase;
+    
+    color: #333333;
+    
+}
+
+/*  =========================  SEDONA PAGE LAYOUT  */
+
+html, body {
+    
+    min-width: 768px;
+    height: 100%;
+    
+    margin: 0;
+    padding: 0;
+    
+    text-align: center;
+    
+}
+
+body {
+    
+    background-color: #f2f2f2;
+/*    background-image: url("../img/project/sedona-index-1200.jpg");*/
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+}
+
+.page-wrapper {
+    
+    display: table;
+    
+    min-width: 768px;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    
+    margin: 0 auto;
+    padding: 0;
+    
+    text-align: left;
+    
+    background-color: #ffffff;
+    
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 1, 1, 0.2);
+    -moz-box-shadow:    0px 5px 15px 0px rgba(0, 1, 1, 0.2);
+    box-shadow:         0px 5px 15px 0px rgba(0, 1, 1, 0.2);
+    
+}
+
+main {
+    
+    display: table-row;
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.page-header {
+    
+    min-height: 56px;
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+.page-footer {
+    
+    min-height: 120px;
+    
+    margin: 0;
+    padding: 0;
+    
+    text-align: justify;
+    
+}
+
+.content-wrapper {
+    
+    min-width: 768px;
+    max-width: 1200px;
+    
+    margin: 0 auto;
+    padding: 0;
+    
+    text-align: left;
+    
+}
+
+.clearfix::before, 
+.clearfix::after {
+    
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.sr-only {
+    
+    position: absolute;
+    
+    width: 1px;
+    height: 1px;
+    
+    padding: 0;
+    margin: -1px;
+    
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    
+}
+
+.one-of-three {
+    
+    display: inline-block;
+    width: 33%;
+    
+}
+
+.page-footer .one-of-three {
+    
+    height: 120px;
+    
+    vertical-align: middle;
+    
+}
+
+.page-footer .one-of-three::before {
+    
+    content: "";
+    display: inline-block;
+    
+    width: 0;
+    height: 100%;
+    
+    vertical-align: middle;
+    
+}
+
+
+
+/*  =========================  STYLEGUIDE  */
+
+a {
+    
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+a:hover {
+    
+    color: #81b3d2;
+    
+}
+
+a:active {
+    
+    color: #cacaca;
+    
+}

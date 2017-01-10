@@ -1,0 +1,162 @@
+/*  =========================  FORM ELEMENTS  --- SPINNER  */
+
+.booking-form .ui-widget {
+    
+    font-family: inherit;
+    font-size: inherit;
+    
+}
+
+.booking-form .ui-corner-all {
+    
+    border-radius: 0;
+    
+}
+
+.booking-form .ui-widget-content {
+    
+    background-color: transparent;
+    color: inherit;
+    
+}
+
+.booking-form .ui-spinner a.ui-spinner-button {
+    
+    border-style: none;
+    
+}
+
+.booking-form a.ui-button:active, 
+.booking-form .ui-button:active {
+    
+    border: none;
+    background-color: transparent;
+    font-weight: normal;
+    color: #81b3d2;
+    
+}
+
+.booking-form .ui-button .ui-icon {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 38px;
+    height: 38px;
+    margin: 0;
+    padding: 0;
+    
+    background-image: none;
+    font-family: "symbols-sedona";
+    font-size: 14px;
+    line-height: 38px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: inherit;
+    text-align: center;
+    text-indent: 0;
+    
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.booking-form .ui-button .ui-icon-minusthick::before {
+    
+    content: "\e802";
+    
+}
+
+.booking-form .ui-button .ui-icon-plusthick::before {
+    
+    content: "\e801";
+    line-height: 45px;
+}
+
+.booking-form a.ui-button {
+    
+    color: #c2c2c2;
+    
+}
+
+.booking-form a.ui-button:hover {
+    
+    color: #000000;
+    
+}
+
+.booking-form a.ui-button:active {
+    
+    color: #81b3d2;
+    
+}
+
+.booking-form label.spinner {
+    
+    width: 50%;
+    
+}
+
+.booking-form label.spinner--children {
+    
+    width: 40%;
+    margin-left: 10%;
+    
+}
+
+.booking-form .ui-spinner {
+    
+    position: absolute;
+    right: 0;
+    
+    display: inline-block;
+    
+    width: 114px;
+    border: none;
+    
+    margin: 0;
+    padding: 0;
+    
+    background-color: #f2f2f2;
+    
+}
+
+.booking-form .ui-spinner .ui-spinner-input {
+    
+    width: 38px;
+    margin-left: 38px;
+    
+    text-align: center;
+    
+}
+
+.booking-form .ui-spinner-button {
+    
+    position: absolute;
+    
+    width: 38px;
+    height: 38px;
+    
+    border: none;
+    
+    text-align: center;
+    color: #a9a9a9;
+    
+    cursor: pointer;
+    
+}
+
+.booking-form .ui-spinner-up {
+    
+    right: 0;
+    
+}
+
+.booking-form .ui-spinner-down {
+    
+    left: 0;
+    
+}

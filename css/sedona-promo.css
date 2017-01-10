@@ -1,0 +1,75 @@
+/*  =========================  PROMO WELCOME  */
+
+.promo-welcome {
+    
+    position: relative;
+    
+    display: block;
+    height: 508px;
+    
+    background-color: transparent;
+    background-image: url("../img/bg/bg-promo-wellcome@1x.jpg");
+    
+    background-image: -webkit-image-set(
+        url("../img/bg/bg-promo-wellcome@1x.jpg") 1x,
+        url("../img/bg/bg-promo-wellcome@2x.jpg") 2x
+    );
+    background-image: image-set(
+        url("../img/bg/bg-promo-wellcome@1x.jpg") 1x,
+        url("../img/bg/bg-promo-wellcome@2x.jpg") 2x
+    );
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 508px;
+    
+    overflow: hidden;
+    
+}
+
+.promo-welcome::before {
+    
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    margin-left: -229px;
+    
+    content: "";
+    width: 458px;
+    height: 352px;
+    
+    background-color: transparent;
+    background-image: url("../img/bg/bg-promo-text@1x.png");
+    
+    background-image: -webkit-image-set(
+        url("../img/bg/bg-promo-text@1x.png") 1x,
+        url("../img/bg/bg-promo-text@2x.png") 2x
+    );
+    background-image: image-set(
+        url("../img/bg/bg-promo-text@1x.png") 1x,
+        url("../img/bg/bg-promo-text@2x.png") 2x
+    );
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 458px 352px;
+    
+}
+
+.promo-welcome::after {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    content: "";
+    height: 57px;
+    
+    background-color: transparent;
+    background-image: url("../img/bg/bg-shape.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% 57px;
+    
+}

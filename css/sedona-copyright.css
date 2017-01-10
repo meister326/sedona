@@ -1,0 +1,60 @@
+/*  COPYRIGHT  */
+
+.copyright {
+    
+    margin: 0;
+    padding: 0;
+    
+    line-height: 26px;
+    text-align: center;
+    
+    vertical-align: middle;
+    
+}
+
+.copyright p {
+    
+    margin: 26px 0;
+    padding: 0;
+    
+}
+
+.copyright__link {
+    
+    display: inline-block;
+    
+}
+
+
+
+.copyright__link svg {
+    
+    display: inline-block;
+    
+    vertical-align: middle;
+    
+}
+
+.copyright__link:hover svg .name path {
+    
+    fill: #81b3d2;
+    
+}
+
+.copyright__link:hover svg .logo path {
+    
+    stroke: #81b3d2;
+    
+}
+
+.copyright__link:active svg .name path {
+    
+    fill: #cacaca;
+    
+}
+
+.copyright__link:active svg .logo path {
+    
+    stroke: #cacaca;
+    
+}

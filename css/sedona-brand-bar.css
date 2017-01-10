@@ -1,0 +1,127 @@
+/*  =========================  BRAND BAR  */
+
+.brand-bar {
+    
+    position: relative;
+    display: block;
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*  =========================  BRAND LOGO  */
+
+.brand-logo {
+    
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    width: 138px;
+    height: 70px;
+    
+    margin: 0;
+    margin-left: -69px;
+    padding: 0;
+    
+    z-index: 2;
+    
+}
+
+.brand-logo__image {
+    
+    display: block;
+    
+    width: 138px;
+    height: 70px;
+    
+    margin: 0;
+    padding: 0;
+    
+    border: none;
+    outline: none;
+    
+}
+
+.brand-logo__link {
+    
+    display: block;
+    
+    margin: 0;
+    padding: 0;
+    
+    border: none;
+    outline: none;
+    
+    text-decoration: none;
+    
+}
+
+.brand-logo--front-page .brand-logo__link,
+.brand-logo--inner-page > .brand-logo__image {
+    
+    display: none;
+    
+}
+
+/*  =========================  BRAND LOGO FOR FOOTER  */
+
+.page-footer .brand-logo {
+    
+    display: block;
+    height: 55px;
+    margin: 0 10px;
+    
+    vertical-align: top;
+}
+
+.page-footer .brand-logo .brand-logo__image {
+    
+    width: 145px;
+    height: auto;
+    
+    vertical-align: top;
+}
+
+/*  =========================  BRAND NAME  */
+
+.brand-name {
+    
+    display: block;
+    
+}
+
+.brand-name__head-front,
+.brand-name__head-inner {
+    
+    margin: 0;
+    padding: 0;
+    
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    
+    cursor: default;
+    
+}
+
+.brand-name__link {
+    
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.brand-name__link:active {
+    
+    
+    
+}
+
+.brand-name--front-page .brand-name__head-inner,
+.brand-name--inner-page .brand-name__head-front {
+    
+    display: none;
+    
+}

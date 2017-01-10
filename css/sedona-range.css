@@ -1,0 +1,243 @@
+/*  =========================  FORM ELEMENTS  --- SLIDER RANGE  */
+
+.price-range .price-range__field-wrapper {
+    
+    position: relative;
+    
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+    
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    
+    font-size: 0;
+    line-height: 0;
+    
+}
+
+.price-range .price-range__separator {
+    
+    position: absolute;
+    top: 3px;
+    left: 50%;
+    margin-left: -1px;
+    
+    font-size: 22px;
+    line-height: 22px;
+    
+}
+
+.price-range label {
+    
+    display: inline-block;
+    width: 50%;
+    
+    margin: 0;
+    padding: 5px 0;
+    
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.price-range label span {
+    
+    font-weight: 400;
+    
+}
+
+.no-js .price-range label span {
+    
+    display: none;
+    
+}
+
+.price-range input[type="number"] {
+    
+    display: none;
+    
+}
+
+.no-js .price-range input[type="number"] {
+    
+    display: inline-block;
+    box-sizing: border-box;
+    
+    width: 60px;
+    
+    margin: 0;
+    padding: 0;
+    
+    border: none;
+    outline: none;
+    
+    background-color: transparent;
+    color: #ffffff;
+    
+    font-family: 'PT Sans', Arial, sans-serif;
+    
+    font-size: 14px;
+    line-height: 22px;
+    
+    font-weight: 400;
+    font-style: normal;
+    
+    font-variant: normal;
+    text-transform: uppercase;
+    
+}
+
+
+/*  SLIDER RANGE  */
+
+#slider-range {
+    
+    display: block;
+    
+    margin: 10px 0;
+    margin-top: 20px;
+    padding: 0;
+    
+}
+
+.price-range .ui-corner-all {
+    
+    border-radius: 0;
+    
+}
+
+.price-range .ui-widget {
+	
+    font-family: inherit;
+	font-size: inherit;
+    
+}
+
+.price-range .ui-widget.ui-widget-content {
+	
+    border: none;
+    
+}
+.price-range .ui-widget-content {
+	
+    border: none;
+    
+	background: rgba(255, 255, 255, 0.3);
+	color: #ffffff;
+    
+}
+
+.price-range .ui-widget-header {
+	
+    border: none;
+    
+	background: #ffffff;
+	color: white;
+    
+	font-weight: bold;
+    
+}
+
+.price-range .ui-state-default,
+.price-range .ui-state-hover,
+.price-range .ui-state-focus,
+.price-range .ui-state-active {
+    
+    border: none;
+    outline: none;
+    background-color: transparent;
+    
+}
+
+.price-range .ui-slider {
+    
+    position: relative;
+    
+    text-align: left;
+    
+}
+
+.price-range .ui-slider .ui-slider-handle {
+    
+    position: absolute;
+    z-index: 2;
+    
+    width: 4px;
+    height: 4px;
+    
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    
+    background-color: #ababab;
+    cursor: pointer;
+    
+    -ms-touch-action: none;
+    touch-action: none;
+    
+}
+
+.price-range .ui-slider .ui-slider-handle:hover {
+    
+    background-color: #1c4f80;
+    
+}
+
+.price-range .ui-slider .ui-slider-range  {
+    
+    position: absolute;
+    z-index: 1;
+    
+    display: block;
+    border: none;
+    
+    background-position: 0 0;
+    
+}
+
+/* support: IE8 - See #6727 */
+
+.price-range .ui-slider.ui-state-disabled .ui-slider-handle,
+.price-range .ui-slider.ui-state-disabled .ui-slider-range {
+	
+    filter: inherit;
+    
+}
+
+.price-range .ui-slider-horizontal {
+	
+    height: 2px;
+    
+}
+
+.price-range .ui-slider-horizontal .ui-slider-handle {
+	
+    top: 50%;
+    transform: translateY(-50%);
+	margin-left: 0px;
+    
+}
+
+.price-range .ui-slider-horizontal .ui-slider-range {
+	
+    top: 0;
+	height: 100%;
+    
+}
+
+.price-range .ui-slider-horizontal .ui-slider-range-min {
+	
+    left: 0;
+    
+}
+
+.price-range .ui-slider-horizontal .ui-slider-range-max {
+	
+    right: 0;
+    
+}

@@ -1,0 +1,319 @@
+/*  =========================  FORM ELEMENTS  */
+
+.hotels-filter {
+    
+    display: block;
+    
+    margin: 0;
+    padding: 28px 0;
+    padding-bottom: 22px;
+    
+    background-color: #497da9;
+    color: #ffffff;
+    
+    background-image: url(../img/bg/sedona-filter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.hotels-filter fieldset {
+    
+    width: 21%;
+    
+    margin: 0;
+    padding: 0;
+    
+    vertical-align: top;
+    
+}
+
+.hotels-filter fieldset:first-child {
+    
+    margin-left: 6%;
+    
+}
+
+.hotels-filter legend {
+    
+    margin-bottom: 13px;
+    
+}
+
+.hotels-filter__price-range legend {
+    
+    margin-bottom: 10px;
+    
+}
+
+.hotels-filter__price-range {
+    
+    float: right;
+    
+    width: 27%;
+    margin-right: 6%;
+    
+}
+
+.hotels-filter__price-range fieldset {
+    
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+.hotels-filter__price-range fieldset:first-child {
+    
+    margin-left: 0;
+    
+}
+
+.hotels-filter__price-range input[type="submit"] {
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 22px;
+    
+}
+
+/*  =========================  FORM ELEMENTS  --- FIELDSET  */
+
+fieldset {
+    
+    display: inline-block;
+    
+    margin: 10px;
+    padding: 10px;
+    
+    border: none;
+    outline: none;
+    
+    background-color: transparent;
+    color: inherit;
+    
+    text-align: left;
+    
+}
+
+fieldset legend {
+    
+    margin-bottom: 20px;
+    
+    font-size: 16px;
+    line-height: 21px;
+    
+    font-weight: 700;
+    color: inherit;
+    
+}
+
+/*  =========================  FORM ELEMENTS  --- LABEL CHECKBOX  */
+
+label.checkbox {
+    
+    position: relative;
+    display: inline-block;
+    
+    margin: 12px 0;
+    padding: 0;
+    padding-left: 40px;
+    
+    font-size: 14px;
+    line-height: 21px;
+    
+    font-weight: 400;
+    color: inherit;
+    
+    cursor: pointer;
+    
+}
+
+label input[type="checkbox"],
+label input[type="radio"] {
+    
+    display: none;
+    
+}
+
+label.checkbox .indicator {
+    
+    position: absolute;
+    display: inline-block;
+    
+    top: 0;
+    left: 0;
+    
+    width: 21px;
+    height: 21px;
+    
+}
+
+label.checkbox .indicator::before {
+    
+    content: "";
+    display: inline-block;
+    
+    width: 100%;
+    height: 100%;
+    
+    margin: 0;
+    padding: 0;
+
+    font-family: "symbols-sedona";
+    font-weight: normal;
+    
+    font-size: 26px;
+    line-height: 21px;
+    
+    text-align: left;
+    
+    text-transform: none;
+    text-decoration: inherit;
+    font-style: normal;
+    font-variant: normal;
+
+    speak: none;
+    
+}
+
+label.checkbox .indicator::before {
+    
+    content: "\2610";
+    
+}
+
+label.checkbox :checked + .indicator::before {
+    
+    content: "\2611";
+    
+}
+
+label.checkbox :disabled + .indicator {
+    
+    color: #bababa;
+    
+}
+
+label.checkbox :checked:disabled + .indicator {
+    
+    color: #bababa;
+    
+}
+
+/*  =========================  FORM ELEMENTS  --- BOOKING FORM  */
+
+.booking-form,
+.booking--page .booking-form {
+    
+    display: block;
+    
+    width: 458px;
+    height: 285px;
+    
+    margin: 0 auto;
+    padding: 55px;
+    
+    font-size: 0;
+    line-height: 1px;
+    
+    text-align: left;
+    vertical-align: top;
+    
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:    0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    box-shadow:         0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.booking--page .booking-form {
+    
+    position: static;
+    
+}
+
+.booking-form label {
+    
+    position: relative;
+    
+    display: inline-block;
+    width: 100%;
+    
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    
+    font-size: 14px;
+    line-height: 38px;
+    
+    font-weight: 700;
+    text-align: left;
+    
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="date"] {
+    
+    display: inline-block;
+    box-sizing: border-box;
+    
+    height: 38px;
+    
+    margin: 0;
+    padding: 0;
+    
+    border: none;
+    outline: none;
+    
+    background-color: #f2f2f2;
+    color: #000000;
+    
+    font-family: 'PT Sans', Arial, sans-serif;
+    
+    font-size: 14px;
+    line-height: 14px;
+    
+    font-weight: 700;
+    text-align: left;
+    
+    text-transform: uppercase;
+    
+}
+
+.booking-form input[type="text"]:hover,
+.booking-form input[type="date"]:hover {
+    
+    background-color: #ebebeb;
+    
+}
+
+.booking-form input[type="text"]:focus,
+.booking-form input[type="date"]:focus {
+    
+    border: 2px solid #e5e5e5;
+    background-color: #ffffff;
+    
+}
+
+.booking-form label.datepicker input {
+    
+    position: absolute;
+    right: 0;
+    
+    width: 342px;
+    
+    padding-left: 10px;
+    padding-right: 32px;
+    
+    background-color: #f2f2f2;
+    
+}
+
+.booking-form .btn--middle {
+    
+    margin: 0;
+    margin-top: 18px;
+    
+}

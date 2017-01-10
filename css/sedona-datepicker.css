@@ -1,0 +1,47 @@
+/*  =========================  FORM ELEMENTS  --- DATEPICKER  */
+
+.datepicker button {
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    width: 38px;
+    height: 38px;
+    
+    border: none;
+    outline: none;
+    
+    font-family: "symbols-sedona";
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: inherit;
+    text-align: center;
+    
+    background-color: transparent;
+    color: #c2c2c2;
+    cursor: pointer;
+    
+}
+
+.datepicker button::before {
+    
+    content: "\e800";
+    
+}
+
+.datepicker input:hover + button::before {
+    
+    color: #000000;
+    
+}
+
+.datepicker input:focus + button::before {
+    
+    color: #81b3d2;
+    
+}

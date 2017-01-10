@@ -1,0 +1,74 @@
+/*  =========================  BOOKING  */
+
+.booking {
+    
+    position: relative;
+    display: block;
+    
+    height: 238px;
+    
+    margin: 0;
+    padding: 0;
+    padding-top: 53px;
+    
+    text-align: center;
+/*    overflow: hidden;*/
+    
+}
+
+.booking__title {
+    
+    margin: 0 10px;
+    margin-bottom: 26px;
+    padding: 0;
+    
+    font-size: 30px;
+    line-height: 30px;
+    
+    font-weight: 700;
+    color: #000000;
+    
+}
+
+.booking__text {
+    
+    margin: 0 10px;
+    margin-bottom: 24px;
+    padding: 0;
+    
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+
+.booking .booking__btn {
+    
+    position: absolute;
+    bottom: 0;
+    
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+}
+
+.booking .booking-form {
+    
+    display: none;
+    position: absolute;
+    
+    top: 291px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+    z-index: 5;
+    
+}
+
+.no-js .booking .booking-form,
+.booking .booking-form.open {
+    
+    display: block;
+        
+}

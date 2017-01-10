@@ -1,0 +1,151 @@
+
+
+.hotels-sort {
+    
+    display: block;
+    height: 86px;
+    
+    margin: 0 6%;
+    padding: 0;
+    
+    font-size: 0;
+    line-height: 1px;
+    
+    vertical-align: middle;
+    overflow: hidden;
+    
+}
+
+.hotels-sort__add-info,
+.hotels-sort__category,
+.hotels-sort__type {
+    
+    float: left;
+    height: 86px;
+    margin: 0;
+    padding: 0;
+    
+    font-size: 12px;
+    line-height: 18px;
+    
+}
+
+.hotels-sort__type {
+    
+    float: right;
+    
+}
+
+.hotels-sort__add-info:before,
+.hotels-sort__category:before,
+.hotels-sort__type:before {
+    
+    content: "";
+    display: inline-block;
+    
+    width: 0;
+    height: 100%;
+    
+    vertical-align: middle;
+    
+}
+
+.hotels-sort__add-info {
+    
+    width: 135px;
+    margin-right: 30px;
+    
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    
+}
+
+.hotels-sort__category input[type="radio"] {
+    
+    display: none;
+    
+}
+
+.hotels-sort__category > span {
+    
+    display: inline-block;
+    
+    margin: 0;
+    padding: 0;
+    
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: 400;
+    
+    vertical-align: middle;
+    
+}
+
+.hotels-sort__category label {
+    
+    margin: 0;
+    margin-left: 30px;
+    
+    color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px dotted #81b3d2;
+    
+    vertical-align: middle;
+    
+}
+
+#for-price:checked ~ label[for="for-price"],
+#for-type:checked ~ label[for="for-type"],
+#for-rating:checked ~ label[for="for-rating"] {
+    
+    color: #81b3d2;
+    border-bottom: none;
+    
+}
+
+.hotels-sort__type label {
+    
+    position: relative;
+    
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    
+    vertical-align: middle;
+    
+}
+
+.hotels-sort__type .btn--ascending, 
+.hotels-sort__type .btn--descending {
+    
+    font-family: "symbols-sedona";
+    font-size: 23px;
+    line-height: 20px;
+    
+    color: rgba(0, 0, 0, 0.3);
+    
+}
+
+.hotels-sort__type .sr-only {
+    
+    display: none;
+    
+}
+
+.hotels-sort__type .ascending-ico:after {
+    
+    content: "\25b2";
+    
+}
+
+.hotels-sort__type .descending-ico:after {
+    
+    content: "\25bc";
+    
+}
+
+.hotels-sort__type :checked ~ span {
+    
+    color: #81b3d2;
+    
+}
